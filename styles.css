@@ -1,3 +1,48 @@
-.title {
-  color: magenta;
+.header {
+	height: 65px;
+	left: 40px;
+	right: 40px;
+	background-color: red;
+	position: fixed;
+}
+
+.landing {
+	height: 100vh;
+	width: 100%;
+	background-color: blue;
+}
+
+.videos {
+	height: 100vh;
+	width: 100%;
+	background-color: yellow;
+}
+
+.bio {
+	height: 100vh;
+	width: 100%;
+	background-color: green;
+}
+
+.shop {
+	height: 100vh;
+	width: 100%;
+	background-color: purple;
+}
+
+.images {
+	height: 100vh;
+	width: 100%;
+	background-color: orange;
+}
+
+.footer {
+	height: 100px;
+	width: 100%;
+	background-color: black;
+}
+
+body {
+	margin: 0;
+	padding: 0 40px 0 40px;
 }
