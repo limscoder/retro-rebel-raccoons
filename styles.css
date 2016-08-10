@@ -1,48 +1,74 @@
 .header {
 	height: 65px;
-	left: 40px;
-	right: 40px;
-	background-color: red;
+	left: 0px;
+	right: 0px;
+	background-color: #fff;
 	position: fixed;
 }
 
 .landing {
 	height: 100vh;
 	width: 100%;
-	background-color: blue;
+	background-color: #262626;
 }
 
 .videos {
 	height: 100vh;
 	width: 100%;
-	background-color: yellow;
+	background-color: #024959;
 }
 
 .bio {
 	height: 100vh;
 	width: 100%;
-	background-color: green;
+	background-color: #037E8C;
 }
 
 .shop {
 	height: 100vh;
 	width: 100%;
-	background-color: purple;
+	background-color: #F24C27;
 }
 
 .images {
 	height: 100vh;
 	width: 100%;
-	background-color: orange;
+	background-color: #024959;
 }
 
 .footer {
 	height: 100px;
 	width: 100%;
-	background-color: black;
+	background-color: #037E8C;
 }
 
 body {
 	margin: 0;
-	padding: 0 40px 0 40px;
+	padding: 0 0px 0 0px;
 }
+
+.navigation {
+	display: flex;
+	flex-direction: row;
+	height: 65px;
+	list-style: none;
+	margin-right: 10px;
+	float: right;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 65px;
+}
+
+.navigation li {
+	margin-right: 10px;
+}
+
+.title {
+	height: 65px;
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	line-height: 65px;
+}
+
