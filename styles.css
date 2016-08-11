@@ -16,20 +16,32 @@
 
 .videos {
 	height: 100vh;
-	width: 100%;
+	width: calc(100% - 20px);
 	background-color: #024959;
+	padding-left: 20px;
+}
+
+.video-container {
 	display: flex;
 	align-items: center;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	margin-top: 25px;
+	margin-bottom: 100px;
 	justify-content: space-around;
 }
 
 .bio {
 	height: 100vh;
-	width: 100%;
+	width: calc(100% - 40px);
 	background-color: #037E8C;
 	padding: 20px;
+}
+
+.bio p {
+	color: white;
+}
+
+.bio-image {
+	float: right;
 }
 
 .shop {
@@ -103,6 +115,10 @@ body {
 	color: white;
 }
 
+.video-title {
+	color: white;
+}
+
 .description {
 	align-self: flex-start;
 	flex-grow: 1;
@@ -116,4 +132,8 @@ body {
 
 .arrow-left {
 	transform: scaleX(-1);
+}
+
+.arrow-right {
+	margin-left: 400px;
 }
