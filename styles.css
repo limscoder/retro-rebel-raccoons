@@ -95,10 +95,25 @@ body {
 }
 
 .youtube-video {
-	height: 400px;
-	width: 600px;
+	height: 500px;
+	width: 700px;
 }
 
 .bio-title {
 	color: white;
+}
+
+.description {
+	align-self: flex-start;
+	flex-grow: 1;
+	color: white;
+	max-width: 500px;
+}
+
+.video-title {
+	display: inline-block;
+}
+
+.arrow-left {
+	transform: scaleX(-1);
 }
