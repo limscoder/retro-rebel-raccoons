@@ -20,7 +20,7 @@ function nextVideo() {
 
 	var videoEl = window.document.querySelector('.youtube-video');
 	videoEl.setAttribute('src', videos[selectedVideo].url);
-	var titleEl = window.document.querySelector('.video-title');
+	var titleEl = window.document.querySelector('.selected-video-title');
 	titleEl.innerHTML = videos[selectedVideo].title;
 }
 
@@ -32,6 +32,6 @@ function previousVideo() {
 
 	var videoEl = window.document.querySelector('.youtube-video');
 	videoEl.setAttribute('src', videos[selectedVideo].url);
-	var titleEl = window.document.querySelector('.video-title');
+	var titleEl = window.document.querySelector('.selected-video-title');
 	titleEl.innerHTML = videos[selectedVideo].title;
 }
