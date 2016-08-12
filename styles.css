@@ -164,7 +164,7 @@ body {
 	max-width: 500px;
 }
 
-.video-title {
+.selected-video-title {
 	display: inline-block;
 }
 
@@ -174,4 +174,12 @@ body {
 
 .arrow-right {
 	margin-left: 400px;
+}
+
+.discography-title {
+	color: white;
+}
+
+.discography {
+	color: white;
 }
