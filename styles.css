@@ -45,9 +45,47 @@
 }
 
 .shop {
-	height: 100vh;
+	height: 400px;
 	width: 100%;
 	background-color: #F24C27;
+	padding-top: 80px;
+}
+
+.shop-items {
+	display: flex;
+	flex-wrap: wrap;
+	width: 600px;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.shop-link,
+.shop-link:visited {
+	color: #2C3539;
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+
+.shop-img {
+	margin-bottom: 5px
+	width: 60px;
+	height: 120px;
+}
+
+.shop-item {
+	display: flex;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.shop-title {
+	color: #2C3539;
+	margin-left: 20px;
+	margin-top: -60px;
 }
 
 .images {
@@ -136,7 +174,7 @@ body {
 	max-width: 500px;
 }
 
-.video-title {
+.selected-video-title {
 	display: inline-block;
 }
 
@@ -147,6 +185,7 @@ body {
 .arrow-right {
 	margin-left: 400px;
 }
+
 
 .nat-image-grid {
 	display: flex;
@@ -167,3 +206,12 @@ body {
 .block_three {
     margin: 5px;
 }
+
+.discography-title {
+	color: white;
+}
+
+.discography {
+	color: white;
+}
+
